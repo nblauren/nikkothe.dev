@@ -1,0 +1,351 @@
+body {
+	font-family: 'Open Sans', serif;
+	padding-top: 54px;
+	color: #373737
+}
+
+@media (min-width:992px) {
+body {
+	padding-top: 0;
+	padding-left: 30rem
+}
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Saira Extra Condensed', serif;
+	font-weight: 700;
+	text-transform: uppercase
+}
+h1 {
+	font-size: 6rem;
+	line-height: 5.5rem
+}
+h2 {
+	font-size: 3.5rem
+}
+.subheading {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'Saira Extra Condensed', serif;
+	font-size: 1.35rem
+}
+.list-social-icons a {
+	color: #F9BE02
+}
+.list-social-icons a:hover {
+	color: #F63642
+}
+.list-social-icons a .fa-lg {
+	font-size: 1.75rem
+}
+.list-icons {
+	font-size: 3rem
+}
+.list-icons .list-inline-item i:hover {
+	color: #F63642
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #000;
+	-webkit-transition: color 0.5s, font-size 0.5s;
+	-moz-transition: color 0.5s, font-size 0.5s;
+	-o-transition: color 0.5s, font-size 0.5s;
+	transition: color 0.5s, font-size 0.5s;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+	font-size: 110%;
+	color: #FF0004
+}
+#sideNav .navbar-nav .nav-item .nav-link.active {
+	font-size: 130%;
+	color: #FF0004
+}
+
+@media (min-width:992px) {
+#sideNav {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	width: 30em;
+	height: 100vh;
+	background-color: #444;
+	background: url(../img/bg-profile.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#sideNav .navbar-brand {
+	display: flex;
+	margin: auto auto 0;
+	padding: .5rem
+}
+#sideNav .navbar-brand .img-profile {
+	max-width: 10rem;
+	max-height: 10rem;
+	border: .5rem solid rgba(255,255,255,.2)
+}
+#sideNav .navbar-collapse {
+	display: flex;
+	align-items: flex-start;
+	flex-grow: 0;
+	width: 100%;
+	margin-bottom: auto
+}
+#sideNav .navbar-nav {
+	background-color: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 350px;
+}
+#sideNav .navbar-collapse .navbar-nav {
+	flex-direction: column;
+	width: 100%
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item {
+	display: block
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+	display: block
+}
+.navbar-text {
+	color: #FFF!important
+}
+.navbar-link {
+	color: #FFF!important
+}
+}
+section.resume-section {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 5rem!important;
+	padding-bottom: 5rem!important;
+	background-color: #FFFFFF;
+}
+section.resume-section .resume-item .resume-date {
+	min-width: none;
+	font-size: 20px;
+}
+
+@media (min-width:768px) {
+section.resume-section {
+	min-height: 100vh;
+	padding-left: 3rem!important;
+}
+/*section.resume-section .resume-item .resume-date {
+	min-width: 18rem
+}*/
+}
+
+@media (min-width:992px) {
+section.resume-section {
+	padding-top: 3rem!important;
+	padding-bottom: 3rem!important
+}
+}
+.btn {
+	font-family: 'Open Sans', serif;
+}
+.bg-primary {
+	background-color: #FFF!important
+}
+.text-primary {
+	color: #373737!important;
+	font-family: 'Saira Extra Condensed', serif;
+}
+a {
+	color: #F63642
+}
+a:active, a:focus, a:hover {
+	color: #824027
+}
+.portfolio-box {
+	position: relative;
+	display: block;
+	max-width: 650px;
+	margin: 0 auto
+}
+.portfolio-box .portfolio-box-caption {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	opacity: 1;
+	color: #fff;
+	background: rgba(255,0,4,1);
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	transition: all .2s
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+	padding: 0 15px;
+	font-family: 'Saira Extra Condensed', serif;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+	font-size: 18px
+}
+.portfolio-box:hover .portfolio-box-caption {
+	height: 100%;
+}
+.portfolio-box:focus {
+	outline: 0
+}
+
+@media (min-width:768px) {
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+	font-size: 16px
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+	font-size: 22px
+}
+}
+/*Progress for skills*/
+.progress {
+	height: 6px;
+	background: #D0D0D0;
+	box-shadow: none;
+}
+.progress-bar {
+	background: #373737
+}
+.progress-element {
+	text-align: left;
+}
+.progress-element p {
+	font-size: 1.7rem;
+}
+.quote-card {
+	background: rgba(255, 255, 255, 01);
+	color: #222222;
+	padding: 20px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+	position: relative;
+	overflow: hidden;
+}
+.quote-card p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	max-width: 80%;
+}
+.quote-card:before {
+	font-family: Georgia, serif;
+	content: "“";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 5em;
+	color: rgba(0, 0, 0, 0.2);
+	font-weight: normal;
+}
+.quote-card:after {
+	font-family: Georgia, serif;
+	content: "”";
+	position: absolute;
+	bottom: -110px;
+	line-height: 100px;
+	right: -32px;
+	font-size: 25em;
+	color: rgba(0, 0, 0, 0.2);
+	font-weight: normal;
+}
+.full-stack {
+	width: 5rem;
+	position: absolute;
+	color: #494949;
+	top: 0px;
+	font-family: 'Saira Extra Condensed', serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: #E8E8E8;
+}
+.skills-list .btn {
+	font-size: 130%;
+	margin: 5px;
+	font-weight: bold;
+	border: 2px #FF0004 solid
+}
+.cv-btn {
+	box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+	-webkit-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+	-moz-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+	-ms-animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+	animation: pulse 5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+ 
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 25px rgba(255, 0, 0, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 25px rgba(255, 0, 0, 0);
+      box-shadow: 0 0 0 25px rgba(255, 0, 0, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+input[type="text"] {
+	background-color : transparent!important;
+	border: none!important;
+	border-bottom: 1px solid #FFFFFF!important;
+}
+input[type="text"]:focus {
+	background-color : transparent!important;
+	border: none!important;
+	border-bottom: 1px solid #000000!important;
+	outline-style: none;
+	box-shadow: none;
+}
+textarea {
+	background-color : transparent!important;
+	border: 1px solid #FFFFFF!important;
+}
+textarea:focus {
+	background-color : transparent!important;
+	border: 1px solid #000000!important;
+	outline-style: none!important;
+	box-shadow: none!important;
+}
+.main-name {
+	letter-spacing: .15rem;
+	font-size: 70px;	
+	font-family: 'Saira Extra Condensed', serif;
+	font-weight: bold;
+}
+
+.skills-list .badge {
+	font-size: 16px;
+	margin: 10px;
+}
